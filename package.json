@@ -1,0 +1,16 @@
+{
+	"name": "changingControls",
+	"description" : "trying to override the controls of an open-source game",
+	"version" : "0.0.1",
+	"scripts" : {
+		"start" : "node app.js"
+	},
+	"devDependencies" : {
+		"express" 	: "3.x",
+		"jade"		: "*",
+		"mongoose" : "*",
+		"node-static" : "*",
+		"session.socket.io" : "*",
+		"socket.io" : "*"
+	}
+}
