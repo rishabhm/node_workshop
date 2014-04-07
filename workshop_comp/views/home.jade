@@ -1,0 +1,12 @@
+//- Required stylesheets and scripts
+link(rel="stylesheet", href="styles/main.css")
+link(href='http://fonts.googleapis.com/css?family=Open+Sans', rel='stylesheet', type='text/css')
+script(type='text/javascript', src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js")
+script(type='text/javascript', src="js/main.js")
+//- Content body
+body
+	img(src="./nodelogo.png")
+	a(href="/create_group")
+		.btn.rect#create_group Create group
+	.btn.rect#join_group Join group
+	input.groupno(type="text", placeholder="Enter group number")
